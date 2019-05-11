@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Questionaire</title>
+
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://code.jquery.com/jquery.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js'></script>
+</head>
+<body>
+    <!--10 questions 5 answers each-->
+    <div class='container'>
+        <h1>questions</h1>
+        <br>
+        <h4>Tell us about yourself:</h4>
+        <h3>Name: (required)</h3>
+        <input type='text' id='name' class='form-control' required>
+        <h4>Upload a photo link!</h4>
+        <input type='text' id='photo' class='form-control' required>
+        <br>
+        <hr>
+
+
+        <h3><strong>Question 1</strong></h3>
+        <h4>Do you procrastinate a lot?</h4>
+        <select class='chosen-select' id='q1'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>You always try to get tasks done on time or before a due date.</h4>
+        <select class='chosen-select' id='q2'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>You are often lost in thought, sometimes oblivious of what is happening around you.</h4>
+        <select class='chosen-select' id='q3'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>You would rather stay in for a night at home, instead of being out in a crowd</h4>
+        <select class='chosen-select' id='q4'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>Do you think you have a creative imagination?</h4>
+        <select class='chosen-select' id='q5'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>You are generally a tidy person.</h4>
+        <select class='chosen-select' id='q6'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>You like to explore and try new things.</h4>
+        <select class='chosen-select' id='q7'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>You find it difficult to get motivated.</h4>
+        <select class='chosen-select' id='q8'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>If you could, you would delete all of your social media accounts.</h4>
+        <select class='chosen-select' id='q9'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>You are ambitious, once you have a task completed you are on to the next.</h4>
+        <select class='chosen-select' id='q10'>
+         <option value=''></option>
+         <option value='1'>1 (Strongly Disagree)</option>
+         <option value='2'>2</option>
+         <option value='3'>3</option>
+         <option value='4'>4</option>
+         <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <br>
+
+
+        <button type='submit' class='btn btn-primary btn-lg btn-block' id='submit'><i class='fa fa-check-circle' aria-hidden='true'></i>
+          Submit
+        </button>        
+          <hr>
+        <div class='container'>
+            <p><a href='/api/friends'>Check out our friends api</a></p>
+        
+        </div>
+        
+        <!--build a modal with chosen-->
+        <div id='resultModal' class='modal fade' role='dialog'>
+            <div class='modal-dialog'>
+                <div class='modal-content'>
+                    <div class='modal-header'>
+                        <button class='close' data-dismiss='modal'>&times;</button>
+                            <h2 class='modal-title'><strong>Top Match</strong></h2>
+                            </div>
+                        <div class='modal-body'>
+                            <h2 id='match-friend'></h2>
+                            <img id='match-img' src='https://vignette.wikia.nocookie.net/arresteddevelopment/images/4/42/Season_4_Poster_-_Buster_Bluth_01.jpg/revision/latest/scale-to-width-down/300?cb=20130521213532' alt='your match!'>
+                                </div>
+                            <div class='modal-footer'>
+                              <button class='btn btn-default' data-dismiss='modal'>Close</button>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!--javascript for modal-->
+        <script type='text/javascript'>
+            // Chosen CSS
+            var config = {
+              '.chosen-select': {},
+              '.chosen-select-deselect': {
+                allow_single_deselect: true
+              },
+              '.chosen-select-no-single': {
+                disable_search_threshold: 10
+              },
+              '.chosen-select-no-results': {
+                no_results_text: 'Sorry no matches!'
+              },
+              '.chosen-select-width': {
+                width: '95%'
+              }
+            };
+            
+
+            //use the chosen cdn to target selected items
+            for (let selector in config) {
+              $(selector).chosen(config[selector]);
+            }
+        
+            //collect input no null
+            $('#submit').on('click', function(event) {
+              event.preventDefault();
+        
+              //form validation
+              function validateForm() {
+                var isValid = true;
+                $('.form-control').each(function() {
+                  if ($(this).val() === '') {
+                    isValid = false;
+                  }
+                });
+        
+                $('.chosen-select').each(function() {
+        
+                  if ($(this).val() === '') {
+                    isValid = false;
+                  }
+                });
+                return isValid;
+              }
+        
+              
+              if (validateForm()) {
+                //make clientInfo obj
+                var clientInfo = {
+                  name: $('#name').val(),
+                  photo: $('#photo').val(),
+                  scores: [
+                    $('#q1').val(),
+                    $('#q2').val(),
+                    $('#q3').val(),
+                    $('#q4').val(),
+                    $('#q5').val(),
+                    $('#q6').val(),
+                    $('#q7').val(),
+                    $('#q8').val(),
+                    $('#q9').val(),
+                    $('#q10').val()
+                  ]
+                };
+        
+                //AJAX post to friends API
+                //?internal server error?
+                $.post('/api/friends', clientInfo, function(data) {
+        
+                  //result from the AJAX post, show top match info.
+                  $('#match-friend').text(data.name);
+                  $('#match-img').attr('src', data.photo);
+        
+                  //show the modal with the top match
+                  $('#results-modal').modal('toggle');
+        
+                });
+              } else {
+                alert('You left a question blank or something un-filled out!');
+              }
+            });
+          </script>
+    
+</body>
+</html>
