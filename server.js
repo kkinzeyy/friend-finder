@@ -1,7 +1,7 @@
 //deps express+path
 let express = require("express");
 let app = express();
-let PORT= process.env.port || 3000;
+let PORT= process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log('friend finder app is listening on our port: ' + PORT);
 });
